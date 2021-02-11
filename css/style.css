@@ -1,9 +1,22 @@
 /* CUSTOM VARS */
+
+/*
+Color palette with correspond color hex code:
+https://coolors.co/606c38-283618-fefae0-dda15e-bc6c25
+
+Color names:
+Dark Olive Green - 606c38
+Kombu Green - 283618
+Cornsilk - fefae0
+Fawn - dda15e
+Liver Dogs - bc6c25
+*/
+
 :root {
-    --primary: #10002b;
-    --secondary: #240046;
-    --special: #3c096c;
-    --primaryFontColor: #ffffff;
+    --primary: #283618;
+    --secondary: #606C38;
+    --special: #FEFAE0;
+    --primaryFontColor: #000000;
     --primaryFont: 'Tajawal', sans-serif;
     --secondaryFont: 'Lato', sans-serif;
 }
@@ -18,8 +31,13 @@ h1 {
     font-family: var(--primaryFont)
 }
 
-div.imageSlide_1 {
-    background-image: url(../img/pexels-miriam-espacio-110854.jpg);
+video {
+    width: 1350px;
+    height: 800px;
+}
+
+section.parallax {
+    background-image: url(../img/pexels-igor-starkov-1307698.jpg);
 
     height: 700px;
 
