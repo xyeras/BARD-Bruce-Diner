@@ -1,4 +1,31 @@
-* {
-    margin: 0;
-    padding: 0;
+/* CUSTOM VARS */
+:root {
+    --primary: #10002b;
+    --secondary: #240046;
+    --special: #3c096c;
+    --primaryFontColor: #ffffff;
+    --primaryFont: 'Tajawal', sans-serif;
+    --secondaryFont: 'Lato', sans-serif;
+}
+
+body {
+    color: var(--primaryFontColor);
+    font-family: var(--secondaryFont);;
+}
+
+
+h1 {
+    font-family: var(--primaryFont)
+}
+
+div.imageSlide_1 {
+    background-image: url(../img/pexels-miriam-espacio-110854.jpg);
+
+    height: 700px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
