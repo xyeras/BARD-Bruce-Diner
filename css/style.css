@@ -34,7 +34,7 @@ div.roundBG1 {
     border-radius: 50px;
 }
 
-button.btn {
+a.btn {
     background-color: var(--primary);
 }
 
