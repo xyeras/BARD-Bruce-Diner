@@ -15,16 +15,12 @@ https://coolors.co/ff9f1c-ffbf69-ffffff-cbf3f0-2ec4b6
     --secondaryFont: 'Lato', sans-serif;
 }
 
-main {
-    background-color: var(--primary);
-}
-
 main h1, main h3 {
     color: var(--primaryFontColor);
 }
 
 div.push-down {
-    padding-top: 200px;
+    padding-top: 250px;
 }
 
 div.roundBG1 {
@@ -41,7 +37,7 @@ a.btn, button.btn {
 main.parallax {
     background-image: url(../img/pexels-jeswin-thomas-5292918.jpg);
 
-    height: 700px;
+    height: 800px;
 
     background-attachment: fixed;
     background-position: center;
