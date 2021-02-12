@@ -80,6 +80,10 @@ img {
     height: 594px;
 }
 
+form {
+    color: var(--primaryFontColor);
+}
+
 form.roundBG2 {
     opacity: 0.9;
     padding: 50px;
