@@ -1,43 +1,33 @@
 /* CUSTOM VARS */
 
 /*
-Color palette with correspond color hex code:
-https://coolors.co/606c38-283618-fefae0-dda15e-bc6c25
-
-Color names:
-Dark Olive Green - 606c38
-Kombu Green - 283618
-Cornsilk - fefae0
-Fawn - dda15e
-Liver Dogs - bc6c25
+Color palette:
+https://coolors.co/ff9f1c-ffbf69-ffffff-cbf3f0-2ec4b6
 */
 
 :root {
-    --primary: #283618;
-    --secondary: #606C38;
-    --special: #FEFAE0;
-    --primaryFontColor: #000000;
+    --primary: #ff9f1c;
+    --secondary: #ffbf69;
+    --special: #cbf3f0;
+    --primaryFontColor: #ffffff;
     --primaryFont: 'Tajawal', sans-serif;
     --secondaryFont: 'Lato', sans-serif;
 }
 
-body {
-    color: var(--primaryFontColor);
-    font-family: var(--secondaryFont);;
+main {
+    background-color: var(--primary);
 }
 
-
-h1 {
-    font-family: var(--primaryFont)
+div.push-down {
+    padding-top: 300px;
 }
 
-video {
-    width: 1350px;
-    height: 800px;
+button {
+    width: 300px;
 }
 
-section.parallax {
-    background-image: url(../img/pexels-igor-starkov-1307698.jpg);
+main.parallax {
+    background-image: url(../img/pexels-jeswin-thomas-5292918.jpg);
 
     height: 700px;
 
@@ -45,5 +35,44 @@ section.parallax {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
+section.parallax {
+    background-image: url(../img/pexels-stokpic-5317.jpg);
+
+    height: 700px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h3 {
+    font-family: var(--primaryFont);
+}
+
+p {
+    font-family: var(--secondaryFont);
+    font-size: 18px;
+}
+
+section {
+    background-color: var(--secondary);
+    height: 800px;
+}
+
+img {
+    /* Original size: 3652 x 5494 */
+    width: 152px;
+    height: 594px;
+}
+
+footer {
+    background-color: var(--special);
+    height: 100px;
+}
+
+i.fab {
+    font-size: 30px;
 }
