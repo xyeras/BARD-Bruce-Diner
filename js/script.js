@@ -1,13 +1,10 @@
-// FIXME
-function checkSubmitInfo() {
+// My second attempt with Merhawit's help
+function handleSubmit() {
     const firstName = document.getElementById("firstName").value;
     const lastName = document.getElementById("lastName").value;
     const email = document.getElementById("email").value;
     console.log(firstName + ' ' + lastName + ' - ' + email);
 }
-
-const button = document.getElementById('btnId');
-button.addEventListener('click', checkSubmitInfo());
 
 // Experimenting with Firebase
 
