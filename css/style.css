@@ -8,7 +8,8 @@ https://coolors.co/ff9f1c-ffbf69-ffffff-cbf3f0-2ec4b6
 :root {
     --primary: #ff9f1c;
     --secondary: #ffbf69;
-    --special: #cbf3f0;
+    --special1: #cbf3f0;
+    --special2: #2ec4b6;
     --primaryFontColor: #ffffff;
     --primaryFont: 'Tajawal', sans-serif;
     --secondaryFont: 'Lato', sans-serif;
@@ -18,12 +19,23 @@ main {
     background-color: var(--primary);
 }
 
-div.push-down {
-    padding-top: 300px;
+main h1, main h3 {
+    color: var(--primaryFontColor);
 }
 
-button {
-    width: 300px;
+div.push-down {
+    padding-top: 200px;
+}
+
+div.roundBG1 {
+    opacity: 0.9;
+    padding: 50px;
+    background-color: var(--special2);
+    border-radius: 50px;
+}
+
+button.btn {
+    background-color: var(--primary);
 }
 
 main.parallax {
@@ -68,8 +80,15 @@ img {
     height: 594px;
 }
 
+form.roundBG2 {
+    opacity: 0.9;
+    padding: 50px;
+    background-color: var(--special2);
+    border-radius: 50px;
+}
+
 footer {
-    background-color: var(--special);
+    background-color: var(--special1);
     height: 100px;
 }
 
